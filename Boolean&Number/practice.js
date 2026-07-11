@@ -79,9 +79,9 @@
 // console.log(num);
 // console.log(nu);
 
-const result3 = 'Hello' + true;
-console.log(result3); // "Hellotrue"
-console.log(typeof result3); // string
+// const result3 = 'Hello' + true;
+// console.log(result3); // "Hellotrue"
+// console.log(typeof result3); // string
 
 
 // JavaScript often performs type coercion, automatically converting data types such as numbers, strings, and booleans in sometimes unexpected ways. Understanding these conversions is crucial for avoiding bugs and writing robust code in your projects.
