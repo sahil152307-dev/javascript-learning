@@ -53,3 +53,4 @@ let age=18;
 let DOB=2007;
 console.log("Name :",name,"Age:",age,"DOB: ",DOB);
 // Use of semicolon is a best practice in js and many another programming language so after end of every statement of code put semicolon and avoid asi(automatic semicolon insertion) and maintain code readable.
+// The prompt() Method: This method of the window is used to get information from a user through the form of a dialog box. This method takes two arguments. The first argument is the message which will appear inside the dialog box, typically prompting the user to enter information. The second one is a default value which is optional and will fill the input field initially.
