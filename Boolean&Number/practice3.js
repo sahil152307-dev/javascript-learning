@@ -47,17 +47,7 @@
 // // console.log(b<a);
 // // console.log(a<=c);
 
-// /* A truthy value is a value that evaluates to true in a boolean context. Examples of truthy values are:
-// Non-empty strings
-// Non-zero numbers
-// The boolean true */
-// /*Falsy values are values that evaluate to false in a boolean context. Examples of falsy values are:
-// "" (empty string)
-// 0
-// false
-// null
-// undefined
-// NaN*/
+
 
 // // Unary Operator's:
 // // Not operator
@@ -98,7 +88,7 @@
 // console.log(void(sum));
 
 // // Bitwise Operator
-// // Add Operator
+// // And Operator
 // let x=7;
 // let y=3;
 // console.log(x&y);
@@ -109,13 +99,13 @@
 
 // // left sift Operator
 // let num=6;
-// // binary of 6 is 0110 cz of left sift extra one 0 will add at right sside ot the binary number of 6 so it become 01100 so the value it gives will be 2x of the actual num value and in case of <<2 it will 4x of the actual value
+// // binary of 6 is 0110 cz of left sift extra one 0 will add at right sside of the binary number of 6 so it become 01100 so the value it gives will be 2x of the actual num value and in case of <<2 it will 4x of the actual value
 // console.log(6<<1);
 // console.log(6<<2);
 
 // // right shift operator
 // let num1=8;
-// // binart of 8 is 1000 cz of right shift the last value on binary falls and became 100 and then the binary will return the /2 value of the original value andd in case of >>2 it give /4
+// // binary of 8 is 1000 cz of right shift the last value on binary falls and became 100 and then the binary will return the /2 value of the original value andd in case of >>2 it give /4
 // console.log(num1>>1);
 // console.log(num1>>2);
 
