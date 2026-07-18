@@ -112,31 +112,31 @@
 // console.log(round);
 // console.log(Math.round(8.6));
 // A practical application of Math.floor() and Math.random() is to generate a random number between two whole numbers. Here's the syntax for that:
-let min=6;
-let max=4;
-let randomize=Math.floor(Math.random()*(max-min+1))+min;
-console.log(randomize);
-const max1 = 2;
-const min1= 4;
-const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(randomNum);
-const randomNumBtw1And20 = Math.floor(Math.random() * 20) + 1;
-console.log(randomNumBtw1And20);
+// let min=6;
+// let max=4;
+// let randomize=Math.floor(Math.random()*(max-min+1))+min;
+// console.log(randomize);
+// const max1 = 2;
+// const min1= 4;
+// const randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
+// console.log(randomNum);
+// const randomNumBtw1And20 = Math.floor(Math.random() * 20) + 1;
+// console.log(randomNumBtw1And20);
 
-//  Math.trunc() removes the decimal part of a number, returning only the integer portion, without rounding:
-console.log(Math.trunc(10.1));
-console.log(Math.trunc(5.9));
+// //  Math.trunc() removes the decimal part of a number, returning only the integer portion, without rounding:
+// console.log(Math.trunc(10.1));
+// console.log(Math.trunc(5.9));
 
-// If you need to get the square root or cube root of a number, you can use the Math.sqrt() and Math.cbrt() methods, respectively:
-console.log(Math.sqrt(625));
-console.log(Math.cbrt(27));
-// If you need to get the absolute value of a number, you can use the Math.abs() method:
-console.log(Math.abs(-45));
-console.log(Math.abs(45));
+// // If you need to get the square root or cube root of a number, you can use the Math.sqrt() and Math.cbrt() methods, respectively:
+// console.log(Math.sqrt(625));
+// console.log(Math.cbrt(27));
+// // If you need to get the absolute value of a number, you can use the Math.abs() method:
+// console.log(Math.abs(-45));
+// console.log(Math.abs(45));
 
-// The last method we will look at will be the Math.pow() method: Just like expo:
-console.log(Math.pow(24,2));
-console.log(Math.pow(9,3));
+// // The last method we will look at will be the Math.pow() method: Just like expo:
+// console.log(Math.pow(24,2));
+// console.log(Math.pow(9,3));
 
 
 
