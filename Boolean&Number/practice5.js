@@ -46,52 +46,67 @@
 //     console.log(result)
 // }
 
-// parseFloat and parseInt:
-console.log(parseFloat(`6.1 ft height`))
-console.log(parseFloat("sahil123"));
-console.log(parseFloat("1.2.3"));
-console.log(parseFloat("2.3"));
+// // parseFloat and parseInt:
+// console.log(parseFloat(`6.1 ft height`))
+// console.log(parseFloat("sahil123"));
+// console.log(parseFloat("1.2.3"));
+// console.log(parseFloat("2.3"));
 
-console.log(parseInt("2.3"));
-console.log(parseInt("45ft"));
-console.log(parseInt("Sahil123"));
-console.log(parseInt("45"));
-// Both methods have some noteworthy behaviors. They ignore leading whitespace:
-console.log(parseFloat("  3.4"));
-console.log(parseInt("  10"));
-// They handle plus and minus signs at the beginning of the string:
-console.log(parseInt("+69"));
-console.log(parseInt("-69"));
-// testing
-console.log(parseInt("1+45"));
-console.log(parseInt("4-3"));
-console.log(parseInt("4*5"));
-// In conclusion, parseFloat() and parseInt() are valuable tools for converting strings to numbers in JavaScript. Understanding how they work and their specific behaviors allows you to handle numeric data more effectively in your applications, especially when dealing with user inputs or external data sources.
-
-
-// tofixed Method:
-let a=3.1234;
-console.log(a.toFixed(2));
-let x=3.24;
-console.log(x.toFixed(1));
+// console.log(parseInt("2.3"));
+// console.log(parseInt("45ft"));
+// console.log(parseInt("Sahil123"));
+// console.log(parseInt("45"));
+// // Both methods have some noteworthy behaviors. They ignore leading whitespace:
+// console.log(parseFloat("  3.4"));
+// console.log(parseInt("  10"));
+// // They handle plus and minus signs at the beginning of the string:
+// console.log(parseInt("+69"));
+// console.log(parseInt("-69"));
+// // testing
+// console.log(parseInt("1+45"));
+// console.log(parseInt("4-3"));
+// console.log(parseInt("4*5"));
+// // In conclusion, parseFloat() and parseInt() are valuable tools for converting strings to numbers in JavaScript. Understanding how they work and their specific behaviors allows you to handle numeric data more effectively in your applications, especially when dealing with user inputs or external data sources.
 
 
+// // tofixed Method:
+// let a=3.1234;
+// console.log(a.toFixed(2));
+// let x=3.24;
+// console.log(x.toFixed(1));
 
-let num=2.34564;
-let num1=5.45564;
-console.log(num.toFixed(3));
-console.log(num1.toFixed(3));
 
-// As you can see, .toFixed() rounds up when the next digit is 5 or greater, and rounds down otherwise. If you call .toFixed() without arguments, it defaults to 0 decimal places:
-console.log(3.145.toFixed());
-console.log(5.55.toFixed());
 
-let price = 21.34;
-let taxRate = 1.67;
-let total=price+(price*taxRate);
+// let num=2.34564;
+// let num1=5.45564;
+// console.log(num.toFixed(3));
+// console.log(num1.toFixed(3));
 
-console.log("Total: $" + total.toFixed(2));
-console.log("Total: $" + total.toFixed());
+// // As you can see, .toFixed() rounds up when the next digit is 5 or greater, and rounds down otherwise. If you call .toFixed() without arguments, it defaults to 0 decimal places:
+// console.log(3.145.toFixed());
+// console.log(5.55.toFixed());
+
+// let price = 21.34;
+// let taxRate = 1.67;
+// let total=price+(price*taxRate);
+
+// console.log("Total: $" + total.toFixed(2));
+// console.log("Total: $" + total.toFixed());
 
 
 // In conclusion, the .toFixed() method is a powerful tool for formatting numbers in JavaScript, particularly when you need to control the display of decimal places. While it's primarily used for formatting output, remember its behavior, especially when precise calculations are needed.
+
+// console.log(-1/0);
+// comparisons work with Null and undefined:
+// In summary, while null and undefined are both used to represent the absence of a value, they behave differently in comparisons. Understanding these differences is key to writing clear and error-free JavaScript code.
+console.log(null==undefined);
+console.log(null===undefined);
+console.log(null==0);
+console.log(null>=0);
+console.log(null>0);
+console.log(null=='');
+
+console.log(undefined==" ");
+console.log(undefined==0);
+console.log(undefined>=0);
+console.log(undefined>0);
