@@ -99,14 +99,140 @@
 // console.log(-1/0);
 // comparisons work with Null and undefined:
 // In summary, while null and undefined are both used to represent the absence of a value, they behave differently in comparisons. Understanding these differences is key to writing clear and error-free JavaScript code.
-console.log(null==undefined);
-console.log(null===undefined);
-console.log(null==0);
-console.log(null>=0);
-console.log(null>0);
-console.log(null=='');
+// console.log(null==undefined);
+// console.log(null===undefined);
+// console.log(null==0);
+// console.log(null>=0);
+// console.log(null>0);
+// console.log(null=='');
 
-console.log(undefined==" ");
-console.log(undefined==0);
-console.log(undefined>=0);
-console.log(undefined>0);
+// console.log(undefined==" ");
+// console.log(undefined==0);
+// console.log(undefined>=0);
+// console.log(undefined>0);
+
+// What Are Switch Statements and How Do They Differ from If/Else Chains?
+
+//  switch statement evaluates an expression and matches its value against a series of case clauses. When a match is found, the code block associated with that case is executed. Here's a basic structure of a switch statement:
+// Syntax:
+// switch (expression) {
+//   case value1:
+//     // code to be executed if expression === value1
+//     break;
+//   case value2:
+//     // code to be executed if expression === value2
+//     break;
+//   default:
+//     // code to be executed if expression doesn't match any case
+// }
+
+// let marks=99;
+
+// switch(true){
+//     case marks>=90:
+//         console.log("Grade A");
+//         break;
+
+//     case marks>=80:
+//         console.log("Grade B");
+//         break;
+
+//     case marks>=70:
+//         console.log("Grade C");
+//         break;
+
+//     case marks>=60:
+//         console.log("Grade D");
+//         break;
+
+//     case marks<60:
+//         console.log("Fail");
+//         break;
+
+//     default:
+//         console.log("Invaild marks");
+
+// }
+// let dayOfWeek = 3; 
+
+// switch (dayOfWeek) {
+//     case 1:
+//         console.log("It's Monday! Time to start the week strong.");
+//         break;
+//     case 2:
+//         console.log("It's Tuesday! Keep the momentum going.");
+//         break;
+//     case 3:
+//         console.log("It's Wednesday! We're halfway there.");
+//         break;
+//     case 4:
+//         console.log("It's Thursday! Almost the weekend.");
+//         break;
+//     case 5:
+//         console.log("It's Friday! The weekend is near.");
+//         break;
+//     case 6:
+//         console.log("It's Saturday! Enjoy your weekend.");
+//         break;
+//     case 7:
+//         console.log("It's Sunday! Rest and recharge.");
+//         break;
+//     default:
+//         console.log("Invalid day! Please enter a number between 1 and 7.");
+// }
+
+// Here is an example of when you might use an if/else statement over a switch statement:
+// let creditScore = 720; 
+// let annualIncome = 60000; 
+// let loanAmount = 200000; 
+
+// let eligibilityStatus;
+
+// if (creditScore >= 750 && annualIncome >= 80000) {
+//     eligibilityStatus = "Eligible for premium loan rates.";
+// } else if (creditScore >= 700 && annualIncome >= 50000) {
+//     eligibilityStatus = "Eligible for standard loan rates.";
+// } else if (creditScore >= 650 && annualIncome >= 40000) {
+//     eligibilityStatus = "Eligible for subprime loan rates.";
+// } else if (creditScore < 650) {
+//     eligibilityStatus = "Not eligible due to low credit score.";
+// } else {
+//     eligibilityStatus = "Not eligible due to insufficient income.";
+// }
+
+// console.log(eligibilityStatus);
+
+// In summary, while both switch statements and if/else if chains allow for multiple-branch logic in your code, they have different strengths. switch statements excel at handling multiple possible values for a single variable, while if/else if chains offer more flexibility for complex conditions. The choice between them often comes down to the specific requirements of your code and personal or team coding style preferences.
+// checking:
+// console.log(5===2+3||4==2)
+// if(1){
+//     console.log("True!")
+// }
+// const a=2;
+// if(1=="1"){
+//     let b=3;
+//     console.log(a+b);
+// }
+// console.log(b)
+
+
+let vehicle = "car";
+
+switch (vehicle) {
+  case "bike":
+    console.log("Bikes are two-wheelers.");
+    break;
+  case "car":
+    console.log("Some cars are 4x4.");
+  case "truck":
+    console.log("Trucks can carry heavy loads.");
+    break;
+  default:
+    console.log("Unknown vehicle.");
+}
+let x = 5;
+if (x > 1 && x < 10) {
+  console.log("x is between 1 and 10");
+} else {
+  console.log("x is not between 1 and 10");
+}
