@@ -74,4 +74,31 @@ const greetings = name => console.log("Hello, " + name + "!");
 // const area=(w,h)=> return w*h;
 // this shows error cz of return
 const area=(w,h)=> w*h;
-console.log(area(3,4))
+console.log(area(3,4));
+
+// What Is Scope in Programming, and How Does Global, Local, and Block Scope Work?:
+// Global Scope:
+const msg="Hello Guys!";
+function greet(){
+    console.log(msg);
+}
+greet();
+console.log(msg);
+// Scope in which a variable can be asscesible from anywhere;
+// Local Scope:
+function song(){
+    let english="I wanna be Your's";
+    console.log(english);
+}
+song();
+// console.log(english)
+// Local scope, on the other hand, refers to variables that are only accessible within a function.
+
+// Block scope:
+if(6>=4 && 3<=5){
+    let condition="It is a true";
+    console.log(condition)
+}
+// console.log(condition);
+// Global variables should be used sparingly, as they can lead to naming conflicts and make your code harder to maintain. Local variables help to keep different parts of your code isolated, which is especially useful in larger programs. Block scoping with let and const provides even finer control over variable accessibility, helping to prevent errors and make your code more predictable. Mastering these basic concepts of global, local, and block scope will provide a solid foundation for understanding more advanced topics.
+
